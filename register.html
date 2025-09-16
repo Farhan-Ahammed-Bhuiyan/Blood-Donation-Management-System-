@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Blood Donation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Blood Donation Management System</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="login.html">Login</a>
+  <a href="register.html">Register</a>
+  <a href="availability.html">Blood Availability</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container form-section">
+  <h2>Donor Registration</h2>
+  <form>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="blood">Blood Group</label>
+    <select id="blood" required>
+      <option value="">--Select--</option>
+      <option>A+</option><option>A-</option>
+      <option>B+</option><option>B-</option>
+      <option>O+</option><option>O-</option>
+      <option>AB+</option><option>AB-</option>
+    </select>
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" placeholder="Enter phone number" required>
+
+    <label for="location">Location</label>
+    <input type="text" id="location" placeholder="Enter your city" required>
+
+    <button type="submit">Register</button>
+  </form>
+  <p style="text-align:center; margin-top:15px;">Already have an account? <a href="login.html">Login here</a></p>
+</div>
+
+<footer>
+  <p>&copy; 2025 Blood Donation Management System | All Rights Reserved</p>
+</footer>
+</body>
+</html>
